@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Charlos2023</title>
+  </head>
+  <style>
+    body {
+      padding: 0 10em 0 10em;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+      background-color: aqua;
+    }
+
+    h2 {
+      margin: 2em 0 1em 0;
+    }
+
+    footer {
+      margin-top: 5em;
+    }
+
+    .chatons {
+      display: flex;
+      gap: 1em;
+    }
+
+    .chatons li {
+      list-style: none;
+    }
+
+    .chatons li img {
+      max-width: 200px;
+    }
+
+    .animation {
+      animation: rotating 1s infinite;
+      animation-timing-function: linear;
+      width: 200px;
+    }
+
+    @keyframes rotating {
+      from {
+        rotate: 0deg;
+      }
+
+      to {
+        rotate: 360deg;
+      }
+    }
+
+    @media (max-width: 903px) {
+      body {
+        padding: 0 1em 0 1em;
+      }
+    }
+  </style>
+  <body>
+    <h1 style="color: red">Bienvenu sur mon super site web retro</h1>
+
+    <h2>Qui suis-je?</h2>
+
+    <p>
+      On m'appelle Charles. Le C++ me passionne beaucoup. Beaucoup comme dans
+      trop. En conséquence, je suis aussi un fanatique de passer des heures à
+      analyser des programmes avec un débuggeur et un désassembleur dans le but
+      de faire ce qui est connu sous l'anglicisme: reverse engineering.
+    </p>
+
+    <h2>Pourquoi cette page est aussi laide?</h2>
+
+    <p>
+      Je n'avais simplement pas envie de faire quelque chose de super
+      sophistiqué avec la technologie maléfique qu'est le Javascript! Je suis
+      100% conscient que cela n'a rien d'original et a été fait au moins 3
+      millions de fois, mais pourquoi pas? J'ai aussi un petit côté minimaliste,
+      donc bizarrement j'ai toujours voulu faire ainsi :-)
+    </p>
+
+    <h3>Voici quelques photos de chatons:</h3>
+
+    <ul class="chatons">
+      <li>
+        <img alt="Chaton #1" src="img/chaton1.jpeg" />
+      </li>
+      <li>
+        <img alt="Chaton #2" src="img/chaton2.jpeg" />
+      </li>
+      <li>
+        <img alt="Chaton #3" src="img/chaton3.jpeg" />
+      </li>
+      <li>
+        <img alt="Chaton #4" src="img/chaton4.jpeg" />
+      </li>
+    </ul>
+
+    <h2>Image qui tourne</h2>
+
+    <img alt="HTML" class="animation" src="img/html.png" />
+
+    <footer>
+      <hr />
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/charles-bourassa-77717728b"
+            >LinkedIn</a
+          >
+        </li>
+        <li><a href="https://github.com/Charlos2023">Github</a></li>
+        <li>
+          <a href="https://github.com/Charlos2023/charlos2023.github.com"
+            >Code Source</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
